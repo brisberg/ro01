@@ -4,7 +4,15 @@
     "partitions": {
         "src": {
             "path": "src",
-            "target": "ReplicatedStorage.Project"
+            "target": "ReplicatedStorage.ProjectSrc"
+        },
+        "modules/testez": {
+            "path": "src/modules/testez/lib",
+            "target": "ReplicatedStorage.TestEZ"
+        },
+        "tests": {
+            "path": "tests",
+            "target": "TestService"
         }
     }
 }
