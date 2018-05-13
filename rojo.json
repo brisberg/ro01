@@ -1,0 +1,10 @@
+{
+    "name": "ro01",
+    "servePort": 8000,
+    "partitions": {
+        "src": {
+            "path": "src",
+            "target": "ReplicatedStorage.Project"
+        }
+    }
+}
